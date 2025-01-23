@@ -37,6 +37,25 @@ article div {
   width: 100%;
 }
 
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.item {
+  flex: 1;
+  margin: 12px;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
@@ -53,6 +72,14 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.description {
+  font-size: 14px;
 }
 
 /* Images */
